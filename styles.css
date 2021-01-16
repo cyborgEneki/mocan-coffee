@@ -6,12 +6,18 @@
 /* FOOTER */
 .footer {
 	width: 100%;
-	background: url("./assets/images/stone-texture.jpg");
-	height: 400px;
-	background-color: #000;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+}
+
+.footer-bun--color {
+	background-color: #2f2826;
+}
+
+.footer-top {
+	height: 29vh;
+}
+
+.footer-middle {
+	background-color: #262729;
 }
 
 .footer-container {
@@ -29,7 +35,7 @@
 
 .footer-logo-container {
 	width: auto;
-	height: 29%;
+	height: 24%;
 }
 
 .footer-logo {
@@ -59,6 +65,55 @@
 	height: 100%;
 	width: 100%;
 	object-fit: contain;
+}
+
+.footer-icon-container {
+	margin-top: 4rem;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 1rem;
+	width: 8%;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	background-color: #161616 !important;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-pinterest {
+	background: #cb2027;
+	color: white;
 }
 
 /* HEADER */
@@ -104,16 +159,16 @@
 }
 
 .content-heading {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    color: #8a676f;
-    font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+	color: #8a676f;
+	font-weight: 600;
 }
 
 .content {
-    color: #3b292c;
+	color: #3b292c;
 }
 
 /* MOBILE */
