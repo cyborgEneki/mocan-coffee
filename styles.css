@@ -182,6 +182,8 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	position: relative;
 	bottom: 70px;
 	margin-left: 20px;
+	margin-top: -0.5rem;
+    margin-bottom: -1.5rem;
 }
 
 /* BANNER */
