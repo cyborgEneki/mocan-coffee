@@ -1,6 +1,7 @@
 /* GENERAL */
 * {
 	box-sizing: border-box;
+	font-family: 'Assistant', sans-serif;
 }
 
 /* FOOTER */
@@ -45,9 +46,10 @@
 }
 
 .footer-middle-heading {
-	font-weight: 600;
+	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 1.5rem;
+	font-family: 'Poppins', sans-serif;
 }
 
 .footer-text-divider {
@@ -58,12 +60,18 @@
 }
 
 .footer-body {
-	font-size: 15px;
+	line-height: 1.75;
+	color: #bebebe;
 }
 
 .footer-quick-links {
 	list-style-type: none;
 	padding-left: 0;
+}
+
+.footer-gallery-image {
+	width: inherit;
+	border-radius: 10px;
 }
 
 
