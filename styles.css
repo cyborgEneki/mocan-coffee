@@ -1,0 +1,135 @@
+/* GENERAL */
+* {
+	box-sizing: border-box;
+}
+
+/* FOOTER */
+.footer {
+	width: 100%;
+	background: url("./assets/images/stone-texture.jpg");
+	height: 400px;
+	background-color: #000;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 400px;
+	background: linear-gradient(
+		0deg,
+		rgb(71 14 0 / 30%),
+		rgb(221 167 128 / 30%)
+	);
+	background-size: cover;
+}
+
+.footer-logo-container {
+	width: auto;
+	height: 29%;
+}
+
+.footer-logo {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.footer-address-text {
+	color: white;
+	text-align: center;
+	font-size: 0.75rem;
+}
+
+.footer-tagline {
+	width: auto;
+	height: 17%;
+	margin-top: 1.25rem;
+}
+
+.footer-image-container {
+	width: auto;
+	height: 400px;
+}
+
+.footer-image {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+/* HEADER */
+.header-logo-container {
+	width: auto;
+	height: 100px;
+	margin-top: 3%;
+}
+
+.header-logo {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.header-subpages--font {
+	font-size: 0.8rem;
+}
+
+.header--position {
+	position: relative;
+	bottom: 70px;
+	margin-left: 20px;
+}
+
+/* BANNER */
+
+.banner-container {
+	width: auto;
+	height: 40vh;
+	margin-top: -45px;
+}
+
+.banner-image {
+	width: 100%;
+	height: 100%;
+}
+
+/* PAGES */
+
+.content-container {
+	margin: 5% 5%;
+}
+
+.content-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #8a676f;
+    font-weight: 600;
+}
+
+.content {
+    color: #3b292c;
+}
+
+/* MOBILE */
+
+@media (min-width: 768px) {
+	.header--position {
+		text-align: center;
+		position: relative;
+		bottom: 0;
+		left: 0;
+	}
+	.banner-container {
+		height: 70vh;
+		margin-top: 1rem;
+	}
+	.content-container {
+		margin: 3% 15%;
+	}
+}
