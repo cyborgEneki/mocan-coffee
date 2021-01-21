@@ -291,6 +291,30 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 .carousel-stars {
 	color: #8a6f4d;
 }
+
+#carousel-prev-icon{
+	right: 9rem;
+}
+
+#carousel-next-icon{
+	left: 9rem;
+}
+
+.carousel-prev-next-icons{
+	width: 20px;
+	height: 20px;
+	background: no-repeat;
+	position: relative;
+	border: 1px solid #d6d6d6 !important;
+	color: black;
+	padding: 2rem;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
 /* MOBILE */
 
 @media (min-width: 768px) {
