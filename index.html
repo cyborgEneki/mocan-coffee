@@ -12,7 +12,10 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -75,6 +78,11 @@
     </div>
     <div class="container">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators carousel-dot-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="container">
@@ -328,13 +336,22 @@
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <i class="fas fa-long-arrow-alt-left carousel-prev-next-icons" id="carousel-prev-icon" aria-hidden="true"></i>
+                <i class="fas fa-long-arrow-alt-left carousel-prev-next-icons" id="carousel-prev-icon"
+                    aria-hidden="true"></i>
             </a>
             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <i class="fas fa-long-arrow-alt-right carousel-prev-next-icons" id="carousel-next-icon" aria-hidden="true"></i>
+                <i class="fas fa-long-arrow-alt-right carousel-prev-next-icons" id="carousel-next-icon"
+                    aria-hidden="true"></i>
             </a>
         </div>
     </div>
+
+    <div class="container carousel-button-container">
+        <div class="text-center">
+            <button class="carousel-button btn" type="button">View all best sellers</button>
+        </div>
+    </div>
+
     <div class="content-container">
         <div class="content-heading">
             COFFEE: THE JOURNEY FROM THE SEED TO YOUR CUP
