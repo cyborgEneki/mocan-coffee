@@ -244,9 +244,9 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .shop-section-container {
 	display: flex;
-    height: 250px;
-    flex-direction: column;
-    justify-content: center;
+	height: 250px;
+	flex-direction: column;
+	justify-content: center;
 }
 
 /* BEST SELLERS */
@@ -254,8 +254,43 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 .best-sellers-container {
 	margin-top: 6rem;
 	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 6rem;
 }
 
+/* CAROUSEL */
+.carousel-image {
+	width: 75%;
+	height: 200px;
+}
+
+.carousel-text-heading {
+	text-align: left;
+	text-transform: uppercase;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: 2rem;
+	font-size: 14px;
+}
+
+.carousel-text-body {
+	font-size: 14px;
+	text-align: left;
+}
+
+.carousel-text-footer {
+	border-top: 1px solid #d6d6d6;
+	margin-top: 2rem;
+	text-align: left;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	padding-top: 0.5rem;
+}
+
+.carousel-stars {
+	color: #8a6f4d;
+}
 /* MOBILE */
 
 @media (min-width: 768px) {
