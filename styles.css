@@ -20,8 +20,8 @@
 .footer-middle {
 	background-color: #262729;
 	color: white;
-	padding-left: 12%;
-	padding-right: 12%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 .footer-bottom {
@@ -30,13 +30,14 @@
 
 .footer-logo-container {
 	width: auto;
-	height: 24%;
+	height: 20%;
 	position: relative;
-	right: 22.3%;
+	right: 18%;
+    margin-top: 1rem;
 }
 
 .footer-bottom-left-section {
-	padding-left: 12.5%;
+	padding-left: 15.5%;
 }
 
 .footer-logo {
