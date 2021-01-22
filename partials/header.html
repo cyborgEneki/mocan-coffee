@@ -13,12 +13,12 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto header-container">
-                        <li class="nav-item active header-links">
-                            <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    <ul class="navbar-nav mr-auto header-container" id="navbar-main-menu">
+                        <li class="nav-item header-links" onclick="addActiveClass(event)" onmouseout="removeActiveClass(event)"> 
+                            <a class="nav-link" href="../index.html" id="home">HOME <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item dropdown header-links">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <li class="nav-item dropdown header-links" onmouseover="displaySubMenu(event)" onmouseout="hideSubMenu(event)">
+                            <a class="nav-link dropdown-toggle" href="#" id="about" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ABOUT
                             </a>
@@ -30,21 +30,30 @@
                                 <a class="dropdown-item" href="../subpages/services.html">OUR SERVICES</a>
                             </div>
                         </li>
-                        <li class="nav-item header-links">
+                        <li class="nav-item header-links" onclick="addActiveClass(event)" onmouseout="removeActiveClass(event)">
                             <a class="nav-link" href="../process.html">HOW WE DO IT</a>
                         </li>
-                        <li class="nav-item header-links">
-                            <a class="nav-link" href="../process.html">PROCESS</a>
+                        <li class="nav-item header-links" onmouseover="displaySubMenu(event)" onmouseout="hideSubMenu(event)">
+                            <a class="nav-link" href="../process.html" id="process">PROCESS</a>
                         </li>
-                        <li class="nav-item header-links">
+                        <li class="nav-item header-links" onclick="addActiveClass(event)" onmouseout="removeActiveClass(event)">
                             <a class="nav-link" href="../why-us.html">WHY US</a>
                         </li>
-                        <li class="nav-item header-links">
+                        <li class="nav-item header-links" onclick="addActiveClass(event)" onmouseout="removeActiveClass(event)">
                             <a class="nav-link" href="../why-us.html">CONTACT US</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0">
+        <div class="navbar-menu" data-menu="about" style="background-color: rebeccapurple;">
+    
+        </div>
+        <div class="navbar-menu" data-menu="process" style="background-color: red;">
+    
         </div>
     </div>
 </div>

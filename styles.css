@@ -162,6 +162,17 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 }
 
 /* HEADER */
+.navbar-menu {
+	height: 300px;
+	margin-top: 2rem;
+	margin-bottom: -2%;
+	display: none;
+}
+
+.active-link {
+	border-bottom: #b9975a solid 2px;
+}
+
 .header-logo-container {
 	width: auto;
 	height: 100px;
@@ -426,6 +437,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	justify-content: center;
 	flex-direction: column;
 }
+
 /* MOBILE */
 
 @media (min-width: 768px) {
