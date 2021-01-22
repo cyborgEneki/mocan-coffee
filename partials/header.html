@@ -14,21 +14,15 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto header-container" id="navbar-main-menu">
-                        <li class="nav-item header-links"> 
-                            <a class="nav-link" href="../index.html" id="home">HOME <span class="sr-only">(current)</span></a>
+                        <li class="nav-item header-links">
+                            <a class="nav-link" href="../index.html" id="home">HOME <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item header-links" onmouseover="displaySubMenu(event)">
-                            <a class="nav-link" href="#" id="about" role="button"
-                                 aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="#" id="about" role="button" aria-haspopup="true"
+                                aria-expanded="false">
                                 ABOUT
                             </a>
-                            <div class="dropdown-menu header-subpages--font" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../subpages/who-we-are.html">WHO WE ARE</a>
-                                <a class="dropdown-item" href="../subpages/mission-vision.html">OUR MISSION & VISION</a>
-                                <a class="dropdown-item" href="../subpages/values.html">OUR VALUES</a>
-                                <a class="dropdown-item" href="../subpages/objectives.html">OUR OBJECTIVES</a>
-                                <a class="dropdown-item" href="../subpages/services.html">OUR SERVICES</a>
-                            </div>
                         </li>
                         <li class="nav-item header-links">
                             <a class="nav-link" href="../how-we-do-it.html">HOW WE DO IT</a>
@@ -49,11 +43,35 @@
     </div>
 
     <div class="container-fluid px-0">
-        <div class="navbar-menu" data-menu="about" style="background-color: rebeccapurple;" onmouseout="hideSubMenu(event)">
-    
+        <div class="navbar-menu" data-menu="about" onmouseout="hideSubMenu(event)">
+            <div class="row d-flex justify-content-center pt-3">
+                <div class="col-sm-1 px-0 mx-1">
+                    <a href="../subpages/who-we-are.html"><img src="../assets/images/coffee-mug-why-us.png" class="img-fluid"
+                            alt=""></a>
+                    <p class="sub-menu-text">Who We Are</p>
+                </div>
+                <div class="col-sm-1 px-0 mx-1">
+                    <a href="../subpages/mission-vision.html"><img src="../assets/images/coffee-mug-why-us.png" class="img-fluid"
+                            alt=""></a>
+                    <p class="sub-menu-text">Our Mission & Vision</p>
+                </div>
+                <div class="col-sm-1 px-0 mx-1">
+                    <a href="../subpages/values.html"><img src="../assets/images/coffee-mug-why-us.png" class="img-fluid" alt=""></a>
+                    <p class="sub-menu-text">Our Values</p>
+                </div>
+                <div class="col-sm-1 px-0 mx-1">
+                    <a href="../subpages/objectives.html"><img src="../assets/images/coffee-mug-why-us.png" class="img-fluid"
+                            alt=""></a>
+                    <p class="sub-menu-text">Our Objectives</p>
+                </div>
+                <div class="col-sm-1 px-0 mx-1">
+                    <a href="../subpages/services.html"><img src="../assets/images/coffee-mug-why-us.png" class="img-fluid" alt=""></a>
+                    <p class="sub-menu-text">Our Services</p>
+                </div>
+            </div>
         </div>
-        <div class="navbar-menu" data-menu="process" style="background-color: red;" onmouseout="hideSubMenu(event)">
-    
+        <div class="navbar-menu" data-menu="process" onmouseout="hideSubMenu(event)">
+
         </div>
     </div>
 </div>
