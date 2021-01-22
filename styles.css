@@ -371,6 +371,50 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	font-weight: 700;
 }
 
+/* SUBSCRIBE */
+
+.subscribe-section-icon {
+	color: #c1a26c;
+}
+
+.subscribe-section-text {
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.subscribe-section-container {
+	background-color: #f7f6f1;
+}
+
+.subscribe-section-image-container {
+	width: 75%;
+	height: 500px;
+	margin-left: 25%;
+}
+
+.subscribe-section-image {
+	height: 500px !important;
+}
+
+.subscribe-section-small-text {
+	width: 60%;
+}
+
+.subscribe-section-list {
+	font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.subscribe-section-text-container {
+	display: flex;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+}
 /* MOBILE */
 
 @media (min-width: 768px) {
