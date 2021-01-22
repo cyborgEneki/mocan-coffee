@@ -14,12 +14,12 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto header-container" id="navbar-main-menu">
-                        <li class="nav-item header-links" onclick="addActiveClass(event)" onmouseout="removeActiveClass(event)"> 
+                        <li class="nav-item header-links"> 
                             <a class="nav-link" href="../index.html" id="home">HOME <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item dropdown header-links" onmouseover="displaySubMenu(event)" onmouseout="hideSubMenu(event)">
-                            <a class="nav-link dropdown-toggle" href="#" id="about" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <li class="nav-item header-links" onmouseover="displaySubMenu(event)">
+                            <a class="nav-link" href="#" id="about" role="button"
+                                 aria-haspopup="true" aria-expanded="false">
                                 ABOUT
                             </a>
                             <div class="dropdown-menu header-subpages--font" aria-labelledby="navbarDropdown">
@@ -30,16 +30,16 @@
                                 <a class="dropdown-item" href="../subpages/services.html">OUR SERVICES</a>
                             </div>
                         </li>
-                        <li class="nav-item header-links" onclick="addActiveClass(event)" onmouseout="removeActiveClass(event)">
+                        <li class="nav-item header-links">
                             <a class="nav-link" href="../how-we-do-it.html">HOW WE DO IT</a>
                         </li>
-                        <li class="nav-item header-links" onmouseover="displaySubMenu(event)" onmouseout="hideSubMenu(event)">
+                        <li class="nav-item header-links" onmouseover="displaySubMenu(event)">
                             <a class="nav-link" href="../process.html" id="process">PROCESS</a>
                         </li>
-                        <li class="nav-item header-links" onclick="addActiveClass(event)" onmouseout="removeActiveClass(event)">
+                        <li class="nav-item header-links">
                             <a class="nav-link" href="../why-us.html">WHY US</a>
                         </li>
-                        <li class="nav-item header-links" onclick="addActiveClass(event)" onmouseout="removeActiveClass(event)">
+                        <li class="nav-item header-links">
                             <a class="nav-link" href="../why-us.html">CONTACT US</a>
                         </li>
                     </ul>
@@ -49,10 +49,10 @@
     </div>
 
     <div class="container-fluid px-0">
-        <div class="navbar-menu" data-menu="about" style="background-color: rebeccapurple;">
+        <div class="navbar-menu" data-menu="about" style="background-color: rebeccapurple;" onmouseout="hideSubMenu(event)">
     
         </div>
-        <div class="navbar-menu" data-menu="process" style="background-color: red;">
+        <div class="navbar-menu" data-menu="process" style="background-color: red;" onmouseout="hideSubMenu(event)">
     
         </div>
     </div>

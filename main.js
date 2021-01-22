@@ -5,33 +5,21 @@ function displaySubMenu(event) {
 			`[data-menu='${targetElementId}']`
 		)[0];
 
-	targetElement.classList.add("active-link");
-
-	if (matchingSubMenuElement) {
-		matchingSubMenuElement.style.display = "block";
+	if (targetElementId === "about" || targetElementId === "process") {
+		targetElement.classList.add("active-link");
 	}
+
+	matchingSubMenuElement.style.display = "block";
 }
 
-function addActiveClass(event) {
-	let targetElement = event.target;
+function hideSubMenu(event) {
+	let targetElement = event.target,
+		targetElementDataAttribute = targetElement.getAttribute("data-menu"),
+		correspondingMenuItem = document.querySelector(
+			`#${targetElementDataAttribute}`
+		);
 
-	targetElement.classList.add("active-link");
+	correspondingMenuItem.classList.remove("active-link");
+
+	targetElement.style.display = "none";
 }
-
-// function removeActiveClass(event) {
-// 	let targetElement = event.target;
-
-// 	targetElement.classList.remove("active-link");
-// }
-
-// function hideSubMenu(event) {
-// 	let targetElement = event.target,
-// 		targetElementId = targetElement.id,
-// 		matchingSubMenuElement = document.querySelectorAll(
-// 			`[data-menu='${targetElementId}']`
-//         )[0];
-
-// 	if (!matchingSubMenuElement) {
-// 		targetElement.classList.remove("active-link");
-// 	}
-// }
