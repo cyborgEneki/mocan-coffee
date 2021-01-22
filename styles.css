@@ -462,3 +462,14 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 		margin: 3% 15%;
 	}
 }
+
+/* CONTACT */
+
+.contact-form {
+	background-color: #f7f6f0;
+	margin-top: 2rem;
+}
+
+.contact-container {
+	padding: 10% 15%;
+}
