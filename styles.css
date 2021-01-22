@@ -211,6 +211,9 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 .sub-menu-text {
 	font-family: "Assistant", sans-serif;
 	font-size: 14px;
+	margin-top: 0.5rem;
+	color: #767676;
+	font-weight: 600;
 }
 
 /* BANNER */
