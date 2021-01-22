@@ -473,3 +473,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 .contact-container {
 	padding: 10% 15%;
 }
+
+.contact-form-text {
+	margin-top: 2rem;
+}
