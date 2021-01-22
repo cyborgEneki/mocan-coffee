@@ -3,7 +3,10 @@ function displaySubMenu(event) {
 		targetElementId = targetElement.id,
 		matchingSubMenuElement = document.querySelectorAll(
 			`[data-menu='${targetElementId}']`
-		)[0];
+		)[0],
+		allSubMenus = document.querySelectorAll("[data-menu]");;
+
+	allSubMenus.forEach(item => item.style.display = "none")
 
 	if (targetElementId === "about" || targetElementId === "process") {
 		targetElement.classList.add("active-link");
