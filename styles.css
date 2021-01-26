@@ -199,7 +199,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 .header-links {
 	text-align: left;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 2px;
 	margin-top: 0;
 	font-size: 14px;
@@ -238,6 +238,10 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .navbar-menu-sub-pages-image-container--bottom-layer-margin {
 	margin-bottom: 50px;
+}
+
+.nav-link-text {
+	color: #222 !important;
 }
 
 /* BANNER */

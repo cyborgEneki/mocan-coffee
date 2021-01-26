@@ -21,6 +21,7 @@ function hideSubMenu(event) {
 		correspondingMenuItem = document.querySelector(
 			`#${targetElementDataAttribute}`
 		);
+		console.log(correspondingMenuItem);
 	correspondingMenuItem.classList.remove("active-link");
 
 	targetElement.style.display = "none";
