@@ -279,6 +279,11 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 /* SHOP SECTION */
 
+.shop--margin-y {
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .shop-section-text {
 	background-color: #f7f6f0;
 }
@@ -311,9 +316,13 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 /* BEST SELLERS */
 
 .best-sellers-container {
-	margin-top: 6rem;
+	padding-top: 50px;
 	border-bottom: 1px solid #d6d6d6;
-	margin-bottom: 6rem;
+	margin-bottom: 40px;
+}
+
+.best-sellers-text--height {
+	height: 85px;
 }
 
 /* CAROUSEL */
