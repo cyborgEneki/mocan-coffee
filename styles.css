@@ -459,6 +459,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	padding: 0.9375rem 1.5625rem;
 	width: 100%;
 	margin-top: 25px;
+	visibility: hidden;
 }
 
 .carousel-item--padding-x {

@@ -26,3 +26,13 @@ function hideSubMenu(event) {
 
 	targetElement.style.display = "none";
 }
+
+function displayCarouselImageButton(event) {
+	let targetElement = event.target;
+	targetElement.querySelector(".carousel-image-button").style.visibility = 'visible';
+}
+
+function hideCarouselImageButton(event) {
+	let targetElement = event.target;
+	targetElement.querySelector(".carousel-image-button").style.visibility = "hidden";
+}
