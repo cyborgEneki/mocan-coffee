@@ -28,6 +28,10 @@
 
 .footer-bottom {
 	color: white;
+	height: 78px;
+	font-size: 14px;
+	font-weight: 300;
+	padding-top: 30px !important;
 }
 
 .footer-logo-container--position {
@@ -46,7 +50,12 @@
 }
 
 .footer-bottom-left-section {
-	padding-left: 15.5%;
+	padding-left: 12%;
+}
+
+.footer-bottom-right-section {
+	float: right;
+    padding-right: 19%;
 }
 
 .footer-logo {
@@ -71,7 +80,7 @@
 .footer-body {
 	line-height: 1.75;
 	color: #bebebe;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 .footer-quick-links {
