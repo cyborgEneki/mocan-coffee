@@ -322,7 +322,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 .shop-section-text-heading {
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	color: #414241;
 	letter-spacing: 2px;
 	margin-bottom: 1.625rem;
@@ -540,20 +540,22 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	height: 640px !important;
 }
 
-.subscribe-section-small-text {
-	width: 60%;
-}
-
 .subscribe-section-list {
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 1rem;
 }
 
 .subscribe-section-text-container {
+	margin-top: 2rem;
 	display: flex;
 	height: auto;
 	justify-content: center;
 	flex-direction: column;
+}
+
+.subscribe-section-text-container--padding-x {
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 /* CONTACT */
@@ -645,6 +647,48 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	.container-sm,
 	.container-xl {
 		width: 1080px;
+	}
+
+	.carousel-button {
+		text-transform: uppercase;
+		color: white;
+		background-color: #937031;
+		padding: 1rem 3rem;
+		letter-spacing: 2px;
+		font-size: 12px;
+		font-weight: 500;
+		border-radius: 2px;
+	}
+
+	.subscribe-section-text-container {
+		display: flex;
+		height: auto;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.subscribe-section-small-text {
+		width: 60%;
+	}
+
+	.subscribe-section-list {
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+	.shop-section-text-heading {
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		color: #414241;
+		letter-spacing: 2px;
+		margin-bottom: 1.625rem;
+	}
+
+	.shop-section-text-body {
+		line-height: 1.75;
+		color: #414241;
+		font-size: 14px;
 	}
 
 	.footer {
