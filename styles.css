@@ -328,7 +328,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	height: 85px;
 }
 
-#shop-section-border-box {
+.absolute-container {
 	width: 100%;
 	position: relative;
 }
@@ -342,27 +342,27 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 /* CAROUSEL */
 .carousel-image {
-	width: 75%;
-	height: 200px;
+	height: 235px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .carousel-text-heading {
 	text-align: left;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 2px;
-	margin-top: 2rem;
 	font-size: 14px;
 }
 
 .carousel-text-body {
-	font-size: 14px;
+	font-size: 13px;
 	text-align: left;
 }
 
 .carousel-text-footer {
 	border-top: 1px solid #d6d6d6;
-	margin-top: 2rem;
+	margin-top: 30px;
 	text-align: left;
 	letter-spacing: 2px;
 	font-size: 13px;
@@ -372,6 +372,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .carousel-stars {
 	color: #8a6f4d;
+	padding-right: 0;
 }
 
 #carousel-prev-icon {
@@ -421,10 +422,10 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	color: #b9975a !important;
 	background-color: #b9975a !important;
 	border-radius: 50%;
-	height: 10px;
-	width: 10px;
+	height: 7px;
+	width: 7px;
 	position: relative;
-	top: 7rem;
+	top: 8rem;
 	box-sizing: content-box;
 	flex: 0 1 auto;
 	margin-right: 3px;
@@ -439,7 +440,8 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 }
 
 .carousel-button-container {
-	margin-top: 7.5rem;
+	margin-top: 140px;
+	margin-bottom: 105px;
 }
 
 .carousel-button {
@@ -450,6 +452,32 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	letter-spacing: 2px;
 	font-size: 14px;
 	font-weight: 700;
+	border-radius: 2px;
+}
+
+.carousel-image-button {
+	padding: 0.9375rem 1.5625rem;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.carousel-item--padding-x {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#carousel-absolute-container--height {
+	height: 335px;
+}
+
+.carousel-inner--position {
+	position: absolute;
+	width: 98%;
+}
+
+.carousel-button:hover {
+	background-color: #b9975b;
+	color: white;
 }
 
 /* SUBSCRIBE */
