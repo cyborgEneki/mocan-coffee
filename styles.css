@@ -297,7 +297,8 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .shop-section-text-body {
 	line-height: 1.75;
-	color: #414241;
+	color: #414241;    
+	font-size: 14px;
 }
 
 .shop-section-container {
@@ -340,7 +341,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	margin-top: 2rem;
 	text-align: left;
 	letter-spacing: 2px;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 700;
 	padding-top: 0.5rem;
 }
