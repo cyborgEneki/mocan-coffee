@@ -215,12 +215,12 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .navbar-menu-sub-pages-images {
 	height: 156px;
-    width: 208px;
+	width: 208px;
 }
 
 .navbar-menu-sub-pages-container {
 	padding-left: 25%;
-    padding-right: 25%;
+	padding-right: 25%;
 }
 
 .navbar-menu-sub-pages-image-container {
@@ -242,6 +242,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .nav-link-text {
 	color: #222 !important;
+	font-size: 12.8px;
 }
 
 /* BANNER */
