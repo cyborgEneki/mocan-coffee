@@ -281,7 +281,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .shop--margin-y {
 	margin-top: 50px;
-    margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .shop-section-text {
@@ -302,7 +302,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .shop-section-text-body {
 	line-height: 1.75;
-	color: #414241;    
+	color: #414241;
 	font-size: 14px;
 }
 
@@ -313,16 +313,31 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	justify-content: center;
 }
 
+.shop-section-text-body--margin-right {
+	margin-right: 30px;
+}
+
 /* BEST SELLERS */
 
 .best-sellers-container {
 	padding-top: 50px;
-	border-bottom: 1px solid #d6d6d6;
 	margin-bottom: 40px;
 }
 
 .best-sellers-text--height {
 	height: 85px;
+}
+
+#shop-section-border-box {
+	width: 100%;
+	position: relative;
+}
+
+#shop-section--border-bottom {
+	width: 98%;
+	border-bottom: 1px solid #d6d6d6;
+	height: 1px;
+	position: absolute;
 }
 
 /* CAROUSEL */
