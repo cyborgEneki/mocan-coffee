@@ -14,26 +14,35 @@
 }
 
 .footer-top {
-	height: 12rem;
+	height: 155px;
 }
 
 .footer-middle {
 	background-color: #262729;
 	color: white;
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-left: 11.5%;
+	padding-right: 11.5%;
+	height: 457px;
+	padding-top: 50px;
 }
 
 .footer-bottom {
 	color: white;
 }
 
+.footer-logo-container--position {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .footer-logo-container {
 	width: auto;
-	height: 20%;
+	height: 65%;
 	position: relative;
-	right: 18%;
-	margin-top: 1rem;
+	right: 26%;
+	bottom: 3%;
 }
 
 .footer-bottom-left-section {
@@ -55,13 +64,14 @@
 .footer-text-divider {
 	border-bottom: white solid 2px;
 	width: 20%;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .footer-body {
 	line-height: 1.75;
 	color: #bebebe;
+	font-size: 15px;
 }
 
 .footer-quick-links {
@@ -77,6 +87,10 @@
 .footer-gallery-image-text {
 	color: white;
 	font-size: 12px;
+}
+
+.footer-gallery--padding {
+	padding-left: 10px;
 }
 
 div.footer-gallery-image-container:hover {
@@ -113,7 +127,8 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 }
 
 .footer-icon-container {
-	margin-top: 4rem;
+	width: 56px;
+	height: 56px;
 }
 
 .fa {
