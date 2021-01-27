@@ -22,16 +22,7 @@
 	color: white;
 	padding-left: 11.5%;
 	padding-right: 11.5%;
-	height: 457px;
-	padding-top: 50px;
-}
-
-.footer-bottom {
-	color: white;
-	height: 78px;
-	font-size: 14px;
-	font-weight: 300;
-	padding-top: 30px !important;
+	height: auto;
 }
 
 .footer-logo-container--position {
@@ -44,18 +35,23 @@
 .footer-logo-container {
 	width: auto;
 	height: 65%;
-	position: relative;
-	right: 26%;
-	bottom: 3%;
+	position: absolute;
+	margin-left: 2%;
+	bottom: 18%;
+}
+
+.footer-bottom {
+	color: white;
+	height: auto;
+	font-size: 11px;
+	font-weight: 300;
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+	text-align: center;
 }
 
 .footer-bottom-left-section {
-	padding-left: 12%;
-}
-
-.footer-bottom-right-section {
-	float: right;
-    padding-right: 19%;
+	padding-bottom: 1rem;
 }
 
 .footer-logo {
@@ -570,6 +566,13 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 /* SMALL SCREENS + (landscape phones) */
 @media (min-width: 576px) {
+	.footer-bottom {
+		color: white;
+		height: auto;
+		font-size: 14px;
+		font-weight: 300;
+		padding-top: 30px !important;
+	}
 }
 
 /* MEDIUM SCREENS + (tablets) */
@@ -587,10 +590,27 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	.content-container {
 		margin: 3% 15%;
 	}
+
+	.footer-bottom {
+		font-size: 11px;
+	}
+
+	.footer-bottom-left-section {
+		padding-bottom: 0;
+	}
+
+	.footer-bottom-right-section {
+		text-align: right;
+		padding-right: 19%;
+	}
 }
 
 /* LARGE SCREENS + (desktops) */
 @media (min-width: 992px) {
+	.footer-middle {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
 }
 
 /* EXTRA LARGE SCREENS + (large desktops) */
@@ -601,5 +621,24 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	.container-sm,
 	.container-xl {
 		width: 1080px;
+	}
+
+	.footer-middle {
+		padding-left: 11.5%;
+		padding-right: 11.5%;
+	}
+
+	.footer-bottom {
+		font-size: 14px;
+		text-align: left;
+	}
+
+	.footer-bottom-left-section {
+		padding-left: 12%;
+	}
+
+	.footer-bottom-right-section {
+		text-align: right;
+		padding-right: 19%;
 	}
 }
