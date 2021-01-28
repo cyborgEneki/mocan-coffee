@@ -318,10 +318,13 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .shop-section-text {
 	background-color: #f7f6f0;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .shop-section-image {
 	height: 250px;
+	width: 100%;
 }
 
 .shop-section-text-heading {
@@ -341,7 +344,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .shop-section-container {
 	display: flex;
-	height: 250px;
+	height: auto;
 	flex-direction: column;
 	justify-content: center;
 }
@@ -736,6 +739,27 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	.container-sm,
 	.container-xl {
 		width: 1080px;
+	}
+
+	.shop-section-left--padding {
+		padding-right: 15px;
+	}
+
+	.shop-section-image {
+		height: 250px;
+	}
+
+	.shop-section-text {
+		background-color: #f7f6f0;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.shop-section-container {
+		display: flex;
+		height: 250px;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.shop-section-text-body--margin-right {
