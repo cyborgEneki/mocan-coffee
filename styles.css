@@ -4,6 +4,11 @@
 	font-family: "Poppins", sans-serif;
 }
 
+.mobile--padding-left {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 /* FOOTER */
 .footer-text-divider {
 	border-bottom: white solid 2px;
@@ -531,9 +536,8 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 }
 
 .subscribe-section-image-container {
-	width: 77%;
+	width: 100%;
 	height: 500px;
-	margin-left: 23%;
 }
 
 .subscribe-section-image {
@@ -600,6 +604,15 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 		margin: 3% 15%;
 	}
 
+	.subscribe-section-image {
+		width: 100%;
+	}
+
+	.mobile--padding-left {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	.footer-logo-container {
 		margin-left: -10%;
 		text-align: left;
@@ -625,12 +638,21 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 /* LARGE SCREENS + (desktops) */
 @media (min-width: 992px) {
+	.shop-section-text-heading {
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 1.5rem;
+		color: #414241;
+		letter-spacing: 2px;
+		margin-bottom: 1.625rem;
+	}
+
 	.subscribe-section-image-container {
 		width: 77%;
 		height: 640px;
 		margin-left: 23%;
 	}
-	
+
 	.footer-middle {
 		padding-left: 3rem;
 		padding-right: 3rem;
@@ -680,15 +702,6 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	.subscribe-section-list {
 		font-weight: 700;
 		font-size: 18px;
-	}
-
-	.shop-section-text-heading {
-		font-weight: 700;
-		text-transform: uppercase;
-		font-size: 1.5rem;
-		color: #414241;
-		letter-spacing: 2px;
-		margin-bottom: 1.625rem;
 	}
 
 	.shop-section-text-body {
