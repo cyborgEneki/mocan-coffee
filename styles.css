@@ -405,7 +405,9 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .carousel-stars {
 	color: #8a6f4d;
-	padding-right: 0;
+	text-align: right;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 #carousel-prev-icon {
@@ -492,7 +494,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	padding: 0.9375rem 1.5625rem;
 	width: 100%;
 	margin-top: 25px;
-	visibility: hidden;
+	visibility: visible;
 }
 
 .carousel-item--padding-x {
@@ -501,17 +503,27 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 }
 
 #carousel-absolute-container--height {
-	height: 335px;
+	height: auto;
 }
 
 .carousel-inner--position {
-	position: absolute;
+	position: relative;
 	width: 100%;
 }
 
 .carousel-button:hover {
 	background-color: #b9975b;
 	color: white;
+}
+
+.carousel-control-prev {
+	left: 60%;
+	top: 104%;
+}
+
+.carousel-control-next {
+	right: 60%;
+	top: 104%;
 }
 
 /* SUBSCRIBE */
@@ -613,6 +625,20 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 		padding-right: 0;
 	}
 
+	.carousel-control-prev {
+		left: 18%;
+		top: 105%;
+	}
+
+	.carousel-control-next {
+		right: 18%;
+		top: 105%;
+	}
+
+	.carousel-stars {
+		padding-right: 2%;
+	}
+
 	.footer-logo-container {
 		margin-left: -10%;
 		text-align: left;
@@ -638,6 +664,45 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 /* LARGE SCREENS + (desktops) */
 @media (min-width: 992px) {
+	.carousel-control-prev {
+		left: 11.5%;
+		top: 150%;
+	}
+
+	.carousel-control-next {
+		right: 11.5%;
+		top: 150%;
+	}
+
+	#carousel-absolute-container--height {
+		height: 335px;
+	}
+
+	.carousel-stars {
+		color: #8a6f4d;
+		padding-right: 0;
+		text-align: left;
+	}
+
+	.carousel-outside-container--padding {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.carousel-button-container {
+		margin-top: 200px;
+		margin-bottom: 105px;
+	}
+
+	.carousel-dot-indicators li {
+		top: 13rem;
+	}
+
+	.absolute-container {
+		width: 100%;
+		position: relative;
+	}
+
 	.shop-section-text-heading {
 		font-weight: 700;
 		text-transform: uppercase;
@@ -677,6 +742,21 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 		width: 1080px;
 	}
 
+	.carousel-control-prev {
+		left: 11.5%;
+		top: 130%;
+	}
+
+	.carousel-control-next {
+		right: 11.5%;
+		top: 130%;
+	}
+
+	.carousel-button-container {
+		margin-top: 140px;
+		margin-bottom: 105px;
+	}
+
 	.carousel-button {
 		text-transform: uppercase;
 		color: white;
@@ -686,6 +766,17 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 		font-size: 12px;
 		font-weight: 500;
 		border-radius: 2px;
+	}
+
+	.carousel-image-button {
+		padding: 0.9375rem 1.5625rem;
+		width: 100%;
+		margin-top: 25px;
+		visibility: hidden;
+	}
+
+	.carousel-dot-indicators li {
+		top: 8rem;
 	}
 
 	.subscribe-section-text-container {
@@ -785,5 +876,18 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 	.footer-bottom-right-section {
 		text-align: center;
 		padding-right: 19%;
+	}
+}
+
+
+@media (min-width: 1300px) {
+	.carousel-control-prev {
+		left: 0;
+		top: 0;
+	}
+
+	.carousel-control-next {
+		right: 0;
+		top: 0;
 	}
 }
