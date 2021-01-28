@@ -532,7 +532,7 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 .subscribe-section-image-container {
 	width: 77%;
-	height: 640px;
+	height: 500px;
 	margin-left: 23%;
 }
 
@@ -625,6 +625,12 @@ div.footer-gallery-image-container:hover .footer-gallery-image-text {
 
 /* LARGE SCREENS + (desktops) */
 @media (min-width: 992px) {
+	.subscribe-section-image-container {
+		width: 77%;
+		height: 640px;
+		margin-left: 23%;
+	}
+	
 	.footer-middle {
 		padding-left: 3rem;
 		padding-right: 3rem;
